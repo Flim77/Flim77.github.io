@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indie Aid - Donate</title>
+    <link href="indie.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Images/indieaidmini(3).png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="header font">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,900&display=swap" rel="Title font">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swap" rel="stylesheet">
+    
+</head>
+<body class="Join">
+    <nav>
+        <table class="portal">
+            <tr>
+              <td><a href="index.html"><img src="Images/indieaidtr.png" alt="indie aid logo" id="logo"></a></td> 
+              <td><a href=AboutUs.html class="TL">About us</a></td>
+              <td><a href=Events.html class="TL">Events</a></td>
+              <td><a href=Games.html class="TL">Our Games</a></td>
+              <td><a href=Join.html class="TL">Donate</a></td>
+              <td><a href=Citations.html class="TL">Citations</a></td>
+               <!--TL stands for top link, using this class to specifiy link decoration for the portal up top-->
+            </tr>
+        </table>
+      </nav>
+      <br>
+      <br>
+      <br>
+    <h2>Sign Up for the <strong class="highlight">Gala</strong> today!</h2>
+    <img src="Images/pen.png" alt="Black Pen Clipart" class="pen">
+    <br>
+    <form action=ThankGala.html>
+        <label for="Fname">Company Name: </label><input type="text" id="Fname" placeholder="First name" required>
+        <br>
+        <br>
+        <label for="Pnumber">Company Number: </label><input type="tel" id="Pnumber" placeholder="000-000-0000" required>
+        <br>
+        <br>
+        <label for="email">Company Email: </label><input type="email" id="email" placeholder="youremail@domain.com" required>
+        <br>
+        <br>
+        <label for="games#">How many games do you plan to present? (max of 10)</label>
+        <input type="number" id="games#" max=10 min=1 required>
+        <br>
+        <br>
+        <label for="Gnames">Name of the games, if multiple seperate with coma</label> 
+        <input type="text" id="Gnames" placeholder="Game1, Game2, Game3, Game4..."  required>
+        <br>
+        <br>
+        <p class="infordump">- You will have 30 minutes max for presentation, we will give you a five minute warning and a one minute warning to wrap it up -</p>
+        <label for="submit">Please hit sumbit down below:</label>
+        <br>
+        <input id="submit" type="submit">
+    </form>
+
+
+</body>
+</html>
