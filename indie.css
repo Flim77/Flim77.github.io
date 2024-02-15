@@ -190,6 +190,7 @@ img {
 /* Number text (1/4 etc) */
 .numbertext {
   color: black;
+  font-weight: bolder;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
