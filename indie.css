@@ -21,6 +21,10 @@ a:visited{
   height: 50%;
   float: right;
   border-radius: 10%;
+  border: 7px ridge #00FF41;
+}
+.galaimg:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .supported{
   text-align: center;
@@ -111,6 +115,7 @@ nav{
   display: block;
   border-bottom: #00FF41 ridge 5px;
   border-right: #00FF41 ridge 5px;
+  border-left: #00FF41 ridge 5px;
   border-radius: 10px;
   overflow-x: auto;
 }
@@ -151,6 +156,7 @@ body {
   z-index: 2;
   background-image:url(Images/Green.png);
   background-size: cover;
+  margin: 0px 50px;
 }
 .mySlides {
   display: none;
