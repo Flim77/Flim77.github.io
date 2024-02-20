@@ -1,0 +1,61 @@
+
+h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 72px;
+  }
+  a:active{
+    color: #00FF41;
+  }
+  a:hover{
+  color: black;
+  }
+  /*Ill get to the rest of the link stuff later, or if u reading it you can*/
+  h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: xx-large;
+  }
+  p{
+  font-family: 'Lexend', sans-serif;
+  font-size: x-large;
+  }
+  /*using poppins for headings to match with the logo and lexend for body text*/
+  .center{
+  text-align: center;
+  margin: auto;
+  }
+  .right{
+  text-align: right;
+  }
+  .left{
+  text-align: left;
+  }
+  /*standard center class*/
+  
+  #logo{
+    vertical-align:left;
+     width: 8.5%;
+  }
+  
+  .involve{
+    text-decoration: none;
+    font-size: 72px;
+    font-family:'Poppins', sans-serif;
+    color:white;
+  }
+  .frozen{
+  width: 50%;
+  height: 100%;
+  right: 0;
+  bottom: 100;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  }
+  input {
+    border: 2px solid #00FF41;
+    border-radius: 4px;
+  }
+  

@@ -1,150 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indie Aid - Home</title>
-    <link href="indie.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="Images/indieaidmini.png">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="header font">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,900&display=swap" rel="Title font">
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swap" rel="font">
-    <!--The fonts are from google fonts, they will be listed on citation page-->
-</head>
-        
-<body>
-  <nav>
-    <table class="portal">
-        <tr>
-          <td><a href="index.html"><img src="Images/indieaidtr.png" alt="indie aid logo" id="logo"></a></td> 
-          <td><a href=AboutUs.html class="TL">About us</a></td>
-          <td><a href=Events.html class="TL">Events</a></td>
-          <td><a href=Games.html class="TL">Our Games</a></td>
-          <td><a href=Join.html class="TL">Donate</a></td>
-          <td><a href=Citations.html class="TL">Citations</a></td>
-           <!--TL stands for top link, using this class to specifiy link decoration for the portal up top-->
-        </tr>
-    </table>
-  </nav>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    
-        <div class="slideshow-container">
-        <div class="mySlides fade">
-            <a href="AboutUs.html">
-          <div class="numbertext">1 / 4</div>
-          <img src="Images/abt.jpg" style="width:100%" alt="Game Developers">
-          <div class="Ctext">About Us</div>
-          </a>
-        </div>
-        
-        <div class="mySlides fade">
-            <a href="Events.html">
-          <div class="numbertext">2 / 4</div>
-          <img src="Images/event.jpg" style="width:100%" alt="Our Events">
-          <div class="Ctext">Events</div>
-            </a>
-        </div>
-        
-        <div class="mySlides fade">
-            <a  href="Games.html">
-          <div class="numbertext">3 / 4</div>
-          <img src="Images/collage.png" style="width:100%" alt="Games we support">
-          <div class="Ctext">Games we support</div>
-            </a>
-        </div>
-        
-        <div class="mySlides fade">
-            <a  href="Join.html">
-          <div class="numbertext">4 / 4</div>
-          <img src="Images/merch1.png" style="width:100%" alt="Donate">
-          <div class="Ctext">Donate</div>
-            </a>
-        </div>
-
-        </div>
-        <br>
-        
-        <div style="text-align:center">
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span>
-        </div>
-        
-        <script>
-        let slideIndex = 0;
-        showSlides();
-        
-        function showSlides() {
-          let i;
-          let slides = document.getElementsByClassName("mySlides");
-          let dots = document.getElementsByClassName("dot");
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-          }
-          slideIndex++;
-          if (slideIndex > slides.length) {slideIndex = 1}    
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-          setTimeout(showSlides, 2000); // Change image every 2 seconds
-        }
-        </script>
-        <br>
-        <div class="divide">
-         <img src="Images/indieaidmini.png" alt="Indie Aid Logo" id="indieAidDiv">
-        </div>
-        <h2 class="left"><strong class="Qs">Who</strong> are we?</h2>
-        <p class="center">
-          Indie Aid is a program to assist small developers with 
-          <strong><a href=AboutUs.html#P>Publishing</a>, 
-            <a href=AboutUs.html#O>Optimization</a>, 
-            <a href=AboutUs.html#F>Funding</a>, 
-            <a href=AboutUs.html#C>Connections</a>, and 
-            <a href=AboutUs.html#D>Development</a>
-
-          </strong>.
-           We plan to outgrow the stigma surrounding the gaming industry, and the big-time developers making a bad name for it by
-            helping small developers with original concepts to bring a new age to the industry. If you are curious about which games we have supported
-            check them out <a href="Games.html" title="Go to our supported games"><strong>here</strong>.</a> We detail our full message on our <a href="AboutUs.html" title="See more about us"><strong>About Us webpage</strong></a>. 
-        </p>
-        <br><br><br><br>
-        <hr class="breakPP">
-        <br>
-        <!--<a href="Events.html#G1">Gala</a>-->
-        <h2 class="left"><strong class="Qs">Why</strong> should you care?</h2>
-        <p>The gaming industry has been a large part of many peoples lives - both consumer and developers.
-           In recent years, the treatment of both the consumer and developer by large corporations has spiraled out of control. 
-           The mistreatment of these developers, and the consumer being fed repetitive, 
-           underdeveloped video games has led to an upsurge of Indie Developers taking the means into their own hands. 
-           These indie developers could lead the gaming industry to somewhere great, 
-           because now more than ever creative people have the power to make amazing video games!
-          </p>
-          <a href="Join.html" class="involve">
-        <div class="join">
-          Get Involved!
-        </div>
-      </a>
-      <hr class="breakPP">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Indie Aid - Home</title>
+      <link href="indie.css" rel="stylesheet">
+      <link rel="icon" type="image/png" href="Images/indieaidmini.png">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="header font">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,900&display=swap" rel="Title font">
+      <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swap" rel="font">
+      <!--The fonts are from google fonts, they will be listed on citation page-->
+  </head>
+          
+  <body>
+    <nav>
+      <table class="portal">
+          <tr>
+            <td><a href="index.html"><img src="Images/indieaidtr.png" alt="indie aid logo" id="logo"></a></td> 
+            <td><a href=AboutUs.html class="TL">About us</a></td>
+            <td><a href=Events.html class="TL">Events</a></td>
+            <td><a href=Games.html class="TL">Our Games</a></td>
+            <td><a href=Join.html class="TL">Donate</a></td>
+            <td><a href=Citations.html class="TL">Citations</a></td>
+            <!--TL stands for top link, using this class to specifiy link decoration for the portal up top-->
+          </tr>
+      </table>
+    </nav>
       <br>
-      <h2 class="left">Come out to our <a href="galajoin.html" id=GalaLink>Gala!</a></h2>
-      <a href="galajoin.html"><img src="Images/Gala.jpg" alt="A gala" class="galaimg"></a>
-      <p>Coming up 90 days from now, Indie Aid will be hosting a Gala for Indie Developers to not only show off their up-and-coming game titles and concepts, and to scout for other developers to join them - or collaborate with. This Gala will also be for developers seeking funding or a more active community - all in an attempt to garner a larger audience - that they deserve!</p>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-</body>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <section>
+          <div class="slideshow-container">
+          <div class="mySlides fade">
+              <a href="AboutUs.html">
+            <div class="numbertext">1 / 4</div>
+            <img src="Images/abt.jpg" style="width:100%" alt="Game Developers">
+            <div class="Ctext">About Us</div>
+            </a>
+          </div>
+          
+          <div class="mySlides fade">
+              <a href="Events.html">
+            <div class="numbertext">2 / 4</div>
+            <img src="Images/event.jpg" style="width:100%" alt="Our Events">
+            <div class="Ctext">Events</div>
+              </a>
+          </div>
+          
+          <div class="mySlides fade">
+              <a  href="Games.html">
+            <div class="numbertext">3 / 4</div>
+            <img src="Images/collage.png" style="width:100%" alt="Games we support">
+            <div class="Ctext">Games we support</div>
+              </a>
+          </div>
+          
+          <div class="mySlides fade">
+              <a  href="Join.html">
+            <div class="numbertext">4 / 4</div>
+            <img src="Images/merch1.png" style="width:100%" alt="Donate">
+            <div class="Ctext">Donate</div>
+              </a>
+          </div>
+
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span>
+          </div>
+          
+          <script>
+          let slideIndex = 0;
+          showSlides();
+          
+          function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 3000); // Change image every 2 seconds
+          }
+          </script>
+      </section>
+          <br>
+          <article>
+            <div class="divide">
+              <br>
+            <img src="Images/indieaidmini.png" alt="Indie Aid Logo" id="indieAidDiv">
+            </div>
+            <h2 class="left"><strong class="Qs">Who</strong> are we?</h2>
+            <p class="center">
+              Indie Aid is a program to assist small developers with 
+              <strong>
+                <a href=AboutUs.html#P>Publishing</a>, 
+                <a href=AboutUs.html#O>Optimization</a>, 
+                <a href=AboutUs.html#F>Funding</a>, 
+                <a href=AboutUs.html#C>Connections</a>, and 
+                <a href=AboutUs.html#D>Development</a>
+              </strong>.
+              We plan to outgrow the stigma surrounding the gaming industry, and the big-time developers making a bad name for it by
+                helping small developers with original concepts to bring a new age to the industry. If you are curious about which games we have supported
+                check them out <a href="Games.html" title="Go to our supported games"><strong>here</strong>.</a> We detail our full message on our <a href="AboutUs.html" title="See more about us"><strong>About Us webpage</strong></a>. 
+            </p>
+            <br><br><br><br>
+            <hr class="breakPP">
+            <br>
+            <!--<a href="Events.html#G1">Gala</a>-->
+            <h2 class="left"><strong class="Qs">Why</strong> should you care?</h2>
+            <p>The gaming industry has been a large part of many peoples lives - both consumer and developers.
+              In recent years, the treatment of both the consumer and developer by large corporations has spiraled out of control. 
+              The mistreatment of these developers, and the consumer being fed repetitive, 
+              underdeveloped video games has led to an upsurge of Indie Developers taking the means into their own hands. 
+              These indie developers could lead the gaming industry to somewhere great, 
+              because now more than ever creative people have the power to make amazing video games!
+              </p>
+              <a href="Join.html" class="involve">
+            <div class="join">
+              Get Involved!
+            </div>
+          </a>
+          <hr class="breakPP">
+          <br>
+          <h2 class="left">Come out to our <a href="galajoin.html" id=GalaLink>Gala!</a></h2>
+          <a href="galajoin.html"><img src="Images/Gala.jpg" alt="A gala" class="galaimg"></a>
+          <p>Coming up 90 days from now, Indie Aid will be hosting a Gala for Indie Developers to not only show off their up-and-coming game titles and concepts, and to scout for other developers to join them - or collaborate with. This Gala will also be for developers seeking funding or a more active community - all in an attempt to garner a larger audience - that they deserve!</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </article>
+  </body>
 </html>
