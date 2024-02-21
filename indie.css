@@ -298,18 +298,16 @@ img {
   transition: .5s;
 }
 .joinG1{
-  background-image: url(Images/GapeGreen.png);
-  background-color: white;
-  width: 20%;
-  text-align: center;
+  width: fit-content;
   padding: 10px;
   border-radius: 20%;
   color: black;
+  font-size: x-large;
 }
 .joinG1:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  color: white;
   transition: .5s;
+  border: #00FF41 2px solid;
 }
 
 .involveG{
