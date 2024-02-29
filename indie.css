@@ -70,7 +70,6 @@ p, li{
 font-family: 'Lexend', sans-serif;
 font-size: x-large;
 }
-/*using poppins for headings to match with the logo and lexend for body text*/
 .center{
 text-align: center;
 margin: auto;
@@ -82,6 +81,27 @@ float:inherit;
   height: 100px;
   margin: auto;
   border-radius: 50px;
+}
+footer{
+  background: #2b2a2a;
+  width: 111.25%;
+  height: 200px;
+ margin: -65px;
+ color: white;
+
+}
+footer img{
+  float: left;
+  max-width: 10%;
+  height: auto;
+  width: auto;
+} 
+footer ul{
+  list-style: none;
+  text-align: center;
+}
+footer p{
+  float: right;
 }
 
 .right{
@@ -100,7 +120,12 @@ text-align: left;
 }
 /*standard center class*/
 nav{
-  width: 95%;
+  width: fit-content;
+  margin: auto;
+  border-radius: 10px;
+  position: fixed;
+  z-index: 10;
+  background-color: #ffffffe1;
 }
 .portal{
   text-align: left;
@@ -122,6 +147,7 @@ nav{
   table-layout: fixed;
   border-collapse: collapse;
 }
+
 
 .portal td{
  padding-left: 20px;
@@ -161,8 +187,9 @@ body {
   z-index: 2;
   background-image:url(Images/Green.png);
   background-size: cover;
-  margin: 0px 50px;
+  margin: 0px 65px;
 }
+
 .mySlides {
   display: none;
 }
