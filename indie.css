@@ -103,7 +103,57 @@ footer ul{
 footer p{
   float: right;
 }
+.fade-in-left {
+  animation: fadeInLeft 2s ease forwards;
+}
 
+@keyframes fadeInLeft {
+  0% {
+      opacity: 0;
+      visibility: hidden;
+      transform: translateX(-100%);
+  }
+  100% {
+      opacity: 1;
+      visibility: visible;
+      transform: translateX(0);
+  }
+}
+.fade-in-bottom {
+  animation: fadeInBottom 2s ease forwards;
+}
+
+@keyframes fadeInBottom {
+  0% {
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(100%);
+  }
+  100% {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+  }
+}
+.fade-in-right {
+  animation: fadeInRight 2s ease forwards;
+}
+
+@keyframes fadeInRight {
+  0% {
+      opacity: 0;
+      visibility: hidden;
+      transform: translateX(100%);
+  }
+  100% {
+      opacity: 1;
+      visibility: visible;
+      transform: translateX(0);
+  }
+}
+#credit-card-section {
+  display: none;
+}
 .right{
 text-align: right;
 float: right;

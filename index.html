@@ -77,33 +77,13 @@
             <span class="dot"></span>
           </div>
           
-          <script>
-          let slideIndex = 0;
-          showSlides();
-          
-          function showSlides() {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("dot");
-            for (i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";  
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) {slideIndex = 1}    
-            for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex-1].style.display = "block";  
-            dots[slideIndex-1].className += " active";
-            setTimeout(showSlides, 3000); // Change image every 2 seconds
-          }
-         
-          </script>
+          <script src="IndieScripts.js"></script>
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       </section>
           <br>
           <article>
             <div class="Article1">
-              <div class="divide">
+              <div class="divide fade-in-left">
                 <br>
               <img src="Images/indieaidmini.png" alt="Indie Aid Logo" id="indieAidDiv">
               </div>
@@ -135,14 +115,14 @@
               because now more than ever creative people have the power to make amazing video games!
               </p>
               <a href="Join.html" class="involve">
-            <div class="join">
+            <div class="join fade-in-bottom">
               Get Involved!
             </div>
           </a>
           <hr class="breakPP">
           <br>
           <h2 class="left">Come out to our <a href="galajoin.html" id=GalaLink>Gala!</a></h2>
-          <a href="galajoin.html"><img src="Images/Gala.jpg" alt="A gala" class="galaimg"></a>
+          <a href="galajoin.html"><img src="Images/Gala.jpg" alt="A gala" class="galaimg fade-in-right"></a>
           <p>Coming up 90 days from now, Indie Aid will be hosting a Gala for Indie Developers to not only show off their up-and-coming game titles and concepts, and to scout for other developers to join them - or collaborate with. This Gala will also be for developers seeking funding or a more active community - all in an attempt to garner a larger audience - that they deserve!</p>
         <br>
         <br>
