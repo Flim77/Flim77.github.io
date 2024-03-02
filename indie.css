@@ -251,6 +251,7 @@ img {
 .slideshow-container {
   max-width: 100%;
   max-height: 325px;
+  min-height: 325px;
   /*Max height and width are in charge of how big the slideshow will be, preferably it will the exact height of our final images*/
   overflow: hidden;
   position: relative;
