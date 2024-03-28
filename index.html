@@ -1,327 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Entrepreneurship Expo - Main</title>
-  <link href="style.css" rel="stylesheet">
-  <meta charset="utf-8">
-  <link rel="icon" type="image/png" href="Images/AceFavicon.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-</head>
-<body class="boody">
-    <nav class="navbar bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand h1" href="index.html"><img src="Images/aceLogo.png" class="AceSize" alt="AceLogo">
-          <div style="font-size: xx-large; color: #803f98; display: inline;" >Advanced Career Education Center at Hermitage</div>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Entrepreneurship Expo</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html"><strong>Home</strong></a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Arts, A-V, Technology & Communications 
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Game Design and Web Development</a></li>
-                    <li><a class="dropdown-item" href="#">Graphic Communications</a></li>
-                    <li><a class="dropdown-item" href="#">Radio Broadcasting and Journalism</a></li>
-                    <li><a class="dropdown-item" href="#">TV Media Production</a></li>
-                  </ul>
-                </li>
-                <!--Item sep-->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Business Management & Administration 
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Legal Administration</a></li>
-                      <li><a class="dropdown-item" href="#">Medical Administration</a></li>
-                    </ul>
-                  </li>
-                   <!--Item sep-->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Health Science 
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Emergency Medical Technician</a></li>
-                      <li><a class="dropdown-item" href="#">Pharmacy Technician</a></li>
-                      <li><a class="dropdown-item" href="#">Nurse Aide</a></li>
-                      <li><a class="dropdown-item" href="#">Practical Nursing</a></li>
-                      <li><a class="dropdown-item" href="#">Sports Medicine</a></li>
-                      <li><a class="dropdown-item" href="#">Veterinary Science</a></li>
-                      <li><a class="dropdown-item" href="#">Physical Therapy</a></li>
-                    </ul>
-                  </li>
-                  <!--Item sep-->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Education & Training 
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Teacher Apprenticeship</a></li>
-                    </ul>
-                  </li>
-                   <!--Item sep-->
-                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Hospitality and Tourism 
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Culinary Arts</a></li>
-                      <li><a class="dropdown-item" href="#">Baking and Pastry Specialization</a></li>
-                      <li><a class="dropdown-item" href="#">Event Planning and Tourism Marketing</a></li>
-                      <li><a class="dropdown-item" href="#">Food Science and Dietetics</a></li>
-                    </ul>
-                  </li>
-                  <!--Item sep-->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Human Services 
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Master Barber</a></li>
-                      <li><a class="dropdown-item" href="#">Cosmetology</a></li>
-                    </ul>
-                  </li>
-                  <!--Item sep-->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Law, Public Safety, Corrections & Security 
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Criminal Justice</a></li>
-                      <li><a class="dropdown-item" href="#">Fire Fighting</a></li>
-                    </ul>
-                  </li>
-                  <!--Item sep-->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Manufacturing 
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">STEM: Precision Machining Technology</a></li>
-                    </ul>
-                  </li>
-                  <!--Item sep-->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Transportation, Distribution, & Logistics 
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Automotive Technology</a></li>
-                      <li><a class="dropdown-item" href="#">Diesel Technologies</a></li>
-                    </ul>
-                  </li>
-                  <!--Item sep-->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Agriculture, Food, & Natural Resources  
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Greenhouse Management</a></li>
-                      <li><a class="dropdown-item" href="#">Landscaping</a></li>
-                    </ul>
-                  </li>
-                  <!--Item sep-->
-              </ul>
-            </div>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Indie Aid - Home</title>
+      <link href="indie.css" rel="stylesheet">
+      <link rel="icon" type="image/png" href="Images/indieaidmini.png">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="header font">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,900&display=swap" rel="Title font">
+      <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swap" rel="font">
+      <!--The fonts are from google fonts, they will be listed on citation page-->
+  </head>
+          
+  <body>
+    <nav>
+      <table class="portal">
+          <tr>
+            <td><a href="index.html"><img src="Images/indieaidtr.png" alt="indie aid logo" id="logo"></a></td> 
+            <td><a href=AboutUs.html class="TL">About us</a></td>
+            <td><a href=Events.html class="TL">Events</a></td>
+            <td><a href=Games.html class="TL">Our Games</a></td>
+            <td><a href=Join.html class="TL">Donate</a></td>
+            <td><a href=Citations.html class="TL">Citations</a></td>
+            <!--TL stands for top link, using this class to specifiy link decoration for the portal up top-->
+          </tr>
+      </table>
+    </nav>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <section>
+          <div class="slideshow-container">
+          <div class="mySlides fade">
+              <a href="AboutUs.html">
+            <div class="numbertext">1 / 4</div>
+            <img src="Images/abt.jpg" style="width:100%" alt="Game Developers">
+            <div class="Ctext">About Us</div>
+            </a>
           </div>
-        </div>
-      </nav>
+          
+          <div class="mySlides fade">
+              <a href="Events.html">
+            <div class="numbertext">2 / 4</div>
+            <img src="Images/event.jpg" style="width:100%" alt="Our Events">
+            <div class="Ctext">Events</div>
+              </a>
+          </div>
+          
+          <div class="mySlides fade">
+              <a  href="Games.html">
+            <div class="numbertext">3 / 4</div>
+            <img src="Images/collage.png" style="width:100%" alt="Games we support">
+            <div class="Ctext">Games we support</div>
+              </a>
+          </div>
+          
+          <div class="mySlides fade">
+              <a  href="Join.html">
+            <div class="numbertext">4 / 4</div>
+            <img src="Images/merch1.png" style="width:100%" alt="Donate">
+            <div class="Ctext">Donate</div>
+              </a>
+          </div>
 
-      <!-- This is the commented out carousel, may be nice to have for other sites
-        <section>
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span>
+          </div>
+          
+          <script src="IndieScripts.js"></script>
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      </section>
+          <br>
+          <article>
+            <div class="Article1">
+              <div class="divide fade-in-left">
+                <br>
+              <img src="Images/indieaidmini.png" alt="Indie Aid Logo" id="indieAidDiv">
+              </div>
+              <h2 class="left"><strong class="Qs">Who</strong> are we?</h2>
+              <p class="center">
+                Indie Aid is a program to assist small developers with 
+                <strong>
+                  <a href=AboutUs.html#P>Publishing</a>, 
+                  <a href=AboutUs.html#O>Optimization</a>, 
+                  <a href=AboutUs.html#F>Funding</a>, 
+                  <a href=AboutUs.html#C>Connections</a>, and 
+                  <a href=AboutUs.html#D>Development</a>
+                </strong>.
+                We plan to outgrow the stigma surrounding the gaming industry, and the big-time developers making a bad name for it by
+                  helping small developers with original concepts to bring a new age to the industry. If you are curious about which games we have supported
+                  check them out <a href="Games.html" title="Go to our supported games"><strong>here</strong>.</a> We detail our full message on our <a href="AboutUs.html" title="See more about us"><strong>About Us webpage</strong></a>. 
+              </p>
+          </div>
+            <br><br><br><br>
+            <hr class="breakPP">
+            <br>
+            <!--<a href="Events.html#G1">Gala</a>-->
+            <h2 class="left"><strong class="Qs">Why</strong> should you care?</h2>
+            <p>The gaming industry has been a large part of many peoples lives - both consumer and developers.
+              In recent years, the treatment of both the consumer and developer by large corporations has spiraled out of control. 
+              The mistreatment of these developers, and the consumer being fed repetitive, 
+              underdeveloped video games has led to an upsurge of Indie Developers taking the means into their own hands. 
+              These indie developers could lead the gaming industry to somewhere great, 
+              because now more than ever creative people have the power to make amazing video games!
+              </p>
+              <a href="Join.html" class="involve">
+            <div class="join fade-in-bottom">
+              Get Involved!
+            </div>
+          </a>
+          <hr class="breakPP">
+          <br>
+          <h2 class="left">Come out to our <a href="galajoin.html" id=GalaLink>Gala!</a></h2>
+          <a href="galajoin.html"><img src="Images/Gala.jpg" alt="A gala" class="galaimg fade-in-right"></a>
+          <p>Coming up 90 days from now, Indie Aid will be hosting a Gala for Indie Developers to not only show off their up-and-coming game titles and concepts, and to scout for other developers to join them - or collaborate with. This Gala will also be for developers seeking funding or a more active community - all in an attempt to garner a larger audience - that they deserve!</p>
         <br>
         <br>
         <br>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner SetWidth" data-bs-ride="carousel" data-bs-interval="3000">
-            
-            <div class="carousel-item active">
-              <img src="Images/COW.png" class="d-block w-100" alt="This is a sample cow">
-            </div>
-            <div class="carousel-item">
-              <img src="Images/HORSE.png" class="d-block w-100" alt="This is a sample horse">
-            </div>
-            <div class="carousel-item">
-              <img src="Images/DOG.png" class="d-block w-100" alt="This is a sample dog">
-            </div>
-            <div class="carousel-item">
-              <img src="Images/BOULDER.jpg" class="d-block w-100" alt="This is a sample dog named Boulder">
-            </div>
-            <div class="carousel-item">
-              <img src="Images/CAT.jpg" class="d-block w-100" alt="This is a sample cat">
-            </div>
-          </div>
-        </div>
-      </section>-->
-     <!--<br>
-      <article class="about" >
-        <div class="ContentRight">
-          <p>Specific Entrepreneurship Expo content will go here. <br> Date, Time, everything about the actual event here!</p>
-        </div>
-      </article>
-      <br>-->
-      <main>
-        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3  bg-body-tertiary EEcover text-center fade-in" >
-          <h1 class="display-3 fw-bold fade-in-bottom text-center" style="font-size: 90px; margin-top: 100px;">Entrepreneurship Day</h1><br><br><br>
-          <h3 class="fade-in-bottom fix text-center" style="font-size: 40px;">Advanced Career Education Center at Hermitage</h3>
-        </div>
-    </div>
-  
-      
-        <div class="album py-5 bg-body-tertiary">
-          <div class="container">
-      
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div class="card-body">
-                    <p class="card-text">Oil Repair and Prescheduled Repairs by Automotive Technology</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div class="card-body">
-                    <p class="card-text">Pastry items for sale by Baking and Pastry.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                    </div>
-                  </div>
-                </div>
-              </div>
-      
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                    
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-      
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                   
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                 
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      
-      </main>
-      <footer class="container py-5">
-        <div class="row">
-          <div class="col-12 col-md">
-            <small class="d-block mb-3 text-body-secondary">&copy; 2025</small>
-          </div>
-          <div class="col-6 col-md">
-            <h5>Resources</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
-              <li><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
-              <li><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
-              <li><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md">
-            <h5>Resources</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="link-secondary text-decoration-none" href="#">Business</a></li>
-              <li><a class="link-secondary text-decoration-none" href="#">Education</a></li>
-              <li><a class="link-secondary text-decoration-none" href="#">Government</a></li>
-              <li><a class="link-secondary text-decoration-none" href="#">Gaming</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md">
-            <h5>About</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="link-secondary text-decoration-none" href="#">Team</a></li>
-              <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
-              <li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
-              <li><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
-            </ul>
-          </div>
-        </div>
-      </footer>
-      
-</body>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </article>
+   <!-- <footer>
+      <br>
+      <br>
+      <br>
+      <img src="Images/indieaidmini.png" alt="Indie Aid Logo">
+      <ul>
+        <li>Webpges</li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="Events.html">Events</a></li>
+        <li><a href="Games.html">Our Games</a></li>
+        <li><a href="Games.html">Our Games</a></li>
+        <li><a href="Join.html">Donation Page</a></li>
+        <li><a href="Citations.html">Websites Citations</a></li>
+      </ul>
+      <p>&copy;IndieAid2024</p>
+
+    </footer>-->
+    <!-- Footer Information
+      Add contact information
+      Add email
+      Add copyright
+     Background all black with white text
+    Add social medias, try logos! -->
+  </body>
 </html>
