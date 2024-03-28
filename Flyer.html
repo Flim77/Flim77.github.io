@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Entrepreneurship Day</title>
+  <link href="style.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <link rel="icon" type="image/png" href="Images/AceFavicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/product/">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+ 
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      width: 100%;
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .btn-bd-primary {
+      --bd-violet-bg: #712cf9;
+      --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+      --bs-btn-font-weight: 600;
+      --bs-btn-color: var(--bs-white);
+      --bs-btn-bg: var(--bd-violet-bg);
+      --bs-btn-border-color: var(--bd-violet-bg);
+      --bs-btn-hover-color: var(--bs-white);
+      --bs-btn-hover-bg: #6528e0;
+      --bs-btn-hover-border-color: #6528e0;
+      --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+      --bs-btn-active-color: var(--bs-btn-hover-color);
+      --bs-btn-active-bg: #5a23c8;
+      --bs-btn-active-border-color: #5a23c8;
+    }
+
+    .bd-mode-toggle {
+      z-index: 1500;
+    }
+
+    .bd-mode-toggle .dropdown-menu .active .bi {
+      display: block !important;
+    }
+  </style>
+</head>
+<body class="boody flyer">
+    <main>
+      <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3  bg-body-tertiary EEcover text-center fade-in" >
+            <h1 class="display-3 fw-bold fade-in-bottom text-center" style="font-size: 90px; margin-top: 100px;">Entrepreneurship Day</h1><br><br><br>
+            <h3 class="fade-in-bottom fix text-center" style="font-size: 40px;">Advanced Career Education Center at Hermitage</h3>
+          </div>
+      </div>
+
+      <br>
+      <p class="aboutDay">Entrepreneurship Day is a chance for all our programs to showcase the skills and talents of our amazing students and teachers. Each program is offering a product or service related to their field of study. This website has descriptions of the many products and services being offered by our programs so come out for our plant sale and while you are here experience all of the amazing services offered by our 27 different programs!
+      </p>
+      <div class="bottomLine1"></div>
+
+      <div class="Questions">
+          <div class="what" >
+            <h1>Addresses:</h1>
+            <br>
+            <ul class="Times">
+              <li style="list-style-image: url(Images/ThumbTack.jpg);">8350 Hermitage High Blvd <br> Henrico, VA 23228</li>
+            </ul>
+          </div>
+          <div class="vl"></div>
+            <div class="when">
+                <h1>Dates & Times:</h1>
+                <br>
+               <ul class="Times">
+                 <li style="list-style-image: url(Images/Calander.jpg);">April 30th - May 1st</li>
+                 <li style="list-style-image: url(Images/Clock.jpg);">11am - 5pm</li>
+               </ul>
+            </div>
+      </div>
+      
+      <div class="bottomLine"></div>
+      <br>
+      <br>
+      <div class="plants">
+        <div class="plantContent"> 
+            <h1>Plant Sale</h1>
+            <p>Hosted by Horticulture the plant sale will take place in the <strong>Horticulture Building</strong><br> during the day.
+                 Please visit and purchase the following plants. Their prices are to the right</p>
+                 <!--<button id="toggleTableButton">Show/Hide Plant Prices</button>
+                 <script>
+                  document.getElementById('toggleTableButton').addEventListener('click', function() {
+                    const table = document.querySelector('.plantList');
+                    table.style.display = (table.style.display === 'none' || !table.style.display) ? 'table' : 'none';
+                  });
+                </script>-->
+        </div>
+      </div>
+
+      <table class="table table-success table-striped" style="width: 30%; height: min-content; margin-left: 40px; margin:10px;">
+        <tr colspan="2">
+          <th>Plants offered during event</th>
+          <th></th>
+        </tr>
+        <tr>
+            <th>Item:</th>
+            <th>Price:</th>
+        </tr>
+        <tr>
+            <td>Six Packs</td>
+            <td>$4.00</td>
+        </tr>
+        <tr>
+            <td>3 ½” Pots</td>
+            <td>$1.50</td>
+        </tr>
+        <tr>
+            <td>4 ½” Pots</td>
+            <td>$3.25</td>
+        </tr>
+        <tr>
+            <td>4 ½” Tall</td>
+            <td>$4.50</td>
+        </tr>
+        <tr>
+            <td>6 ½” Pots</td>
+            <td>$5.00</td>
+        </tr>
+        <tr>
+            <td>Trade Gallon Pots</td>
+            <td>$7.00</td>
+        </tr>
+        <tr>
+            <td>True Gallon Pots</td>
+            <td>$8.00</td>
+        </tr>
+        <tr>
+            <td>10” Hanging Basket</td>
+            <td>$16.00</td>
+        </tr>
+        <tr>
+            <td>12” Hanging Basket</td>
+            <td>$20.00</td>
+        </tr>
+        <tr>
+            <td>Peonies</td>
+            <td>$15.00</td>
+            
+        </tr>
+     </table>
+    
+      <div class="Blood">
+        <div class="bloodContent"> 
+            <h1>Blood Drive</h1>
+            <p>Hosted by Sports Medicine and partnered with American Red Cross. </p>
+        </div>
+      </div>
+      <div class=border>
+        <a href="https://www.redcrossblood.org/give.html/drive-results?zipSponsor=acecenter" class="QRcodeA">
+        <img src="Images/BloodDriveQRcode.jpg" alt="QR Code to blood drive sign up" class="QRcode">
+        </a>
+        <p class=QRcodeCap>Click or scan me to sing up for the blood drive!</p>
+    </div>
+    </main>
+
+    <footer class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <small class="d-block mb-3 text-body-secondary">&copy; 2025</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="#">Business</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Education</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Government</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Gaming</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    
+        </body>
+    </html>
+    
+</body>
+</html>
