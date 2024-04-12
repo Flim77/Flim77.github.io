@@ -82,29 +82,195 @@ float:inherit;
   margin: auto;
   border-radius: 50px;
 }
-footer{
-  background: #2b2a2a;
-  width: 111.25%;
-  height: 200px;
- margin: -65px;
- color: white;
 
-}
-footer img{
-  float: left;
-  max-width: 10%;
-  height: auto;
-  width: auto;
-} 
-footer ul{
-  list-style: none;
-  text-align: center;
-}
-footer p{
-  float: right;
-}
 .fade-in-left {
   animation: fadeInLeft 2s ease forwards;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+  margin-left: -65px;
+  margin-right: -65px;
+  border-top: solid #00FF41 5px;
+  margin-top: 10pxf;
+
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+
+  
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-right ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-right li {
+  margin-bottom: 0.5rem;
+  font-size: medium;
+}
+
+.footer-right a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-right a:hover {
+  color: #ccc;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.footer-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.footer-center ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.footer-center li {
+  margin-bottom: 0.5rem;
+  font-size: medium;
+}
+
+.footer-center a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-center a:hover {
+  color: #ccc;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li {
+  margin: 0 0.5rem;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ccc;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #00FF41;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #ccc;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li {
+  margin: 0 0.5rem;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ccc;
+}
+
+.social-icons img {
+  width: 32px;
+  height: 32px;
 }
 
 @keyframes fadeInLeft {
@@ -235,7 +401,14 @@ height: 90%;
 body {
   font-family: Verdana, sans-serif;
   z-index: 2;
-  background-image:url(Images/Green.png);
+  background:
+  linear-gradient(to top, 
+  #00ff4080, 
+  #00ff4061 20%, 
+  #00ff4018 40%, 
+  #00ff4018 60%, 
+  white 80%
+);;
   background-size: cover;
   margin: 0px 65px;
 }
@@ -331,8 +504,13 @@ img {
   border-bottom-right-radius: 35%;
 }
 .join{
-  background-image: url(Images/GapeGreen.png);
-  background-color: #00FF41;
+  background-image: url(Images/ControllerMainPage.png);
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #e6e6e6;
   height: 250px;
   width: 75%;
   position: relative;
@@ -347,7 +525,7 @@ img {
   transition: .75s;
 }
 .join:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 #00FF41, 0 17px 50px 0 #00FF41;
   color: white;
 }
 .joinG{
